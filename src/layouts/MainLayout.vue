@@ -57,7 +57,7 @@ const linksList = [
   },
 
   {
-    title: 'Precios Criptomoneda',
+    title: 'Precios Criptomonedas',
     caption: 'Pagina de los precios de las Criptomoneda',
     link: 'prueba'
   },
