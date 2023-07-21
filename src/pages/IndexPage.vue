@@ -1,6 +1,9 @@
 <template>
   <q-page class="flex flex-center">
-    <h1>CrytoStatus</h1>
+    <div class="container">
+    <h1 class="title">CrytoStatus</h1>
+    <img src="../assets/logo.png" />
+  </div>
   </q-page>
 </template>
 
@@ -11,3 +14,18 @@ export default defineComponent({
   name: 'IndexPage'
 })
 </script>
+
+
+<style>
+
+.container{
+  display: grid;
+  align-items: center;
+ 
+}
+
+.title{
+  font-size: 60px;
+}
+
+</style>
