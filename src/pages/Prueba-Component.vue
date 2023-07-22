@@ -98,7 +98,7 @@ td {
 }
 
 td:last-child {
-  width: 50%; /* ajusta el valor según sea necesario */
+  width: 50%;
   text-align: center;
 }
 
