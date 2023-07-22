@@ -1,6 +1,6 @@
-# Quasar App (quasar-project)
+# Aplicación de Precios de Criptomonedas
 
-A Quasar Project
+Vue js y Quasar js
 
 ## Install the dependencies
 ```bash
