@@ -17,8 +17,10 @@
 </thead>
 <tbody>
     <tr v-for="coin in filterCoins" :key="coin.id">
+    <td>
      <img :src="coin.image" style="width: 2rem;"/>
       <span>{{ coin.name }}</span>
+      </td>
       <td>${{ coin.current_price }}</td>
     </tr>
 </tbody>
@@ -68,4 +70,36 @@ export default defineComponent({
   width: 300px;
   text-align: center;
 }
+
+table {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+
+img{
+  margin-right: 10px;
+}
+
+
+td {
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+
+td:last-child {
+  width: 50%; /* ajusta el valor según sea necesario */
+  text-align: center;
+}
+
 </style>
